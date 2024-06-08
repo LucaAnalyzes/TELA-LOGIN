@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #474747;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.input_Container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input_Container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #474747;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input_Container input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.input_Container img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+
+}
+
+.input_Container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input_Container a:hover {
+    text-decoration: underline;
+}
+
+.submitButton{
+    width: 100%;
+    height: 50px;
+    background-color: #6507d1;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.submitButton:hover {
+    background-color: #781ce0;
+}
+.register-link{
+    text-align: center;
+    margin: 20px 0;
+}
+.register-link p a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.register-link p  {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
